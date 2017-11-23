@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /**
  *  直接选择排序
+ *  若有n个数据，数据交换的次数最多有n-1，但程序比较的次数较多，时间效率为O(n的平方)
  */
 public class SelectSort {
 
