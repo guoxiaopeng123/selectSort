@@ -3,7 +3,7 @@ package test1;
 import java.util.Arrays;
 
 /**
- *
+ *  直接选择排序
  */
 public class SelectSort {
 
@@ -16,13 +16,10 @@ public class SelectSort {
                     data[i]=data[j];
                     data[j]=tmp;
                 }
-
             }
             System.out.println(Arrays.toString(data));
         }
-
     }
-
     public static void main(String[] args) {
         DataWrap [] data = {
                 new DataWrap(21,""),
